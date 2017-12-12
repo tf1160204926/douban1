@@ -1,0 +1,1169 @@
+@media only screen and (width: 320px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media only screen and (width: 360px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media only screen and (width: 375px) {
+  html {
+    font-size: 18.75px;
+  }
+}
+@media only screen and (width: 400px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media only screen and (width: 411px) {
+  html {
+    font-size: 20.55px;
+  }
+}
+@media only screen and (width: 414px) {
+  html {
+    font-size: 20.7px;
+  }
+}
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 32px;
+  }
+}
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0;
+}
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block;
+}
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+template,
+[hidden] {
+  display: none;
+}
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit;
+}
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic;
+}
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none;
+}
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px;
+}
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+optgroup {
+  font-weight: bold;
+}
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto;
+}
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+.boxSizing {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon/fonts/icomoon.eot?agyjoy');
+  src: url('../fonts/icomoon/fonts/icomoon.eot?agyjoy#iefix') format('embedded-opentype'), url('../fonts/icomoon/fonts/icomoon.ttf?agyjoy') format('truetype'), url('../fonts/icomoon/fonts/icomoon.woff?agyjoy') format('woff'), url('../fonts/icomoon/fonts/icomoon.svg?agyjoy#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-home:before {
+  content: "\e901";
+}
+.icon-pencil:before {
+  content: "\e905";
+}
+.icon-image:before {
+  content: "\e90d";
+}
+.icon-file-empty:before {
+  content: "\e924";
+}
+.icon-bell:before {
+  content: "\e951";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-cog:before {
+  content: "\e994";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-download:before {
+  content: "\e9c7";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/ico/icomoon/fonts/icomoon.eot?2zlsae');
+  src: url('../fonts/ico/icomoon/fonts/icomoon.eot?2zlsae#iefix') format('embedded-opentype'), url('../fonts/ico/icomoon/fonts/icomoon.ttf?2zlsae') format('truetype'), url('../fonts/ico/icomoon/fonts/icomoon.woff?2zlsae') format('woff'), url('../fonts/ico/icomoon/fonts/icomoon.svg?2zlsae#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sina-weibo:before {
+  content: "\ea9a";
+}
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body,
+h2,
+h3,
+h4,
+h5,
+ul,
+dl,
+dt,
+dd,
+p {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: roman, Arial, Helvetica, sans-serif;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  background-color: #f8f8f8;
+}
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+img {
+  display: block;
+  width: 100%;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+body,
+html {
+  height: 100%;
+}
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.clearfix {
+  zoom: 1;
+}
+.viewport {
+  max-width: 640px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.viewport .nav {
+  width: 12.8125rem;
+  height: 100%;
+  transition: all 0.5s 1s;
+  top: 0;
+  position: fixed;
+  left: -12.8125rem;
+  background: #e7eaee;
+  padding-bottom: 0;
+}
+.viewport .nav dl {
+  padding-left: 1rem;
+}
+.viewport .nav dl .login {
+  height: 2.1875rem;
+  margin: 1.625rem auto;
+  overflow: hidden;
+}
+.viewport .nav dl .login .user {
+  height: 100%;
+  width: 2.1875rem;
+  float: left;
+}
+.viewport .nav dl .login span {
+  display: block;
+  font-size: 0.8125rem;
+  padding-top: 0.6875rem;
+  margin-left: 2.8125rem;
+  color: #888;
+}
+.viewport .nav dl dd {
+  height: 2.8125rem;
+}
+.viewport .nav dl dd a {
+  display: block;
+  line-height: 2.8125rem;
+  height: 2.8125rem;
+  font-size: 1.125rem;
+  color: #1A1A1A;
+}
+.viewport .nav dl dd a.active {
+  color: #23A392;
+}
+.viewport .nav dl dd .icon-home:before {
+  color: #46C8CE;
+}
+.viewport .nav dl dd .icon-file-empty:before {
+  color: #62C98D;
+}
+.viewport .nav dl dd .icon-pencil:before {
+  color: #EB9D58;
+}
+.viewport .nav dl dd .icon-menu:before {
+  color: #62C98D;
+}
+.viewport .nav dl dd .icon-heart:before {
+  color: #FF7777;
+}
+.viewport .nav dl dd .icon-cog:before {
+  color: orange;
+}
+.viewport .nav .footer {
+  width: 100%;
+  height: 2.5rem;
+  position: absolute;
+  bottom: 0;
+}
+.viewport .nav .footer a {
+  text-align: center;
+  float: left;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  color: #8A8A8A;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-top: 0.03125rem solid #ddd;
+}
+.viewport .nav .footer a:first-child {
+  border-right: 0.03125rem solid #ddd;
+}
+.viewport .nav .footer a[class^="icon"]::before {
+  font-size: 1.4375rem;
+  padding-right: 0.53125rem;
+}
+.viewport .container {
+  width: 20rem;
+  overflow: hidden;
+}
+.viewport .container .top {
+  background: #21BBA6;
+  height: 2.8125rem;
+  padding-left: 0.875rem;
+  padding-right: 0.875rem;
+  line-height: 2.8125rem;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  z-index: 100;
+}
+.viewport .container .top a {
+  line-height: 2.8125rem;
+  color: #fff;
+}
+.viewport .container .top h2 {
+  font-size: 1.125rem;
+  position: absolute;
+  float: left;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.viewport .container .bottom {
+  width: 100%;
+  margin-top: 2.8125rem;
+  margin-bottom: 20px;
+}
+.viewport .container .bottom .today .date,
+.viewport .container .bottom .older .date,
+.viewport .container .bottom .favourite .date,
+.viewport .container .bottom .work .date,
+.viewport .container .bottom .list .date {
+  width: 100%;
+  height: 2.5rem;
+  background: #fff;
+}
+.viewport .container .bottom .today .date span,
+.viewport .container .bottom .older .date span,
+.viewport .container .bottom .favourite .date span,
+.viewport .container .bottom .work .date span,
+.viewport .container .bottom .list .date span {
+  display: block;
+  height: 2.5rem;
+  padding-left: 1.03125rem;
+  color: #CACACA;
+  line-height: 2.5rem;
+}
+.viewport .container .bottom .today ul,
+.viewport .container .bottom .older ul,
+.viewport .container .bottom .favourite ul,
+.viewport .container .bottom .work ul,
+.viewport .container .bottom .list ul {
+  width: 100%;
+}
+.viewport .container .bottom .today ul li,
+.viewport .container .bottom .older ul li,
+.viewport .container .bottom .favourite ul li,
+.viewport .container .bottom .work ul li,
+.viewport .container .bottom .list ul li {
+  border-top: 0.03125rem solid #DADADA;
+  padding: 0 1.25rem;
+}
+.viewport .container .bottom .today ul li p,
+.viewport .container .bottom .older ul li p,
+.viewport .container .bottom .favourite ul li p,
+.viewport .container .bottom .work ul li p,
+.viewport .container .bottom .list ul li p {
+  line-height: 1.5rem;
+  width: 4.21875rem;
+  background: #B9B9B9;
+  color: #fff;
+  border-radius: 0 0 0.3125rem 0.3125rem;
+  text-align: center;
+  font-size: 0.75rem;
+}
+.viewport .container .bottom .today ul li h2,
+.viewport .container .bottom .older ul li h2,
+.viewport .container .bottom .favourite ul li h2,
+.viewport .container .bottom .work ul li h2,
+.viewport .container .bottom .list ul li h2 {
+  margin: 1rem 0 0.75rem 0;
+}
+.viewport .container .bottom .today ul li .count,
+.viewport .container .bottom .older ul li .count,
+.viewport .container .bottom .favourite ul li .count,
+.viewport .container .bottom .work ul li .count,
+.viewport .container .bottom .list ul li .count {
+  padding-bottom: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+.viewport .container .bottom .today ul li .count .text,
+.viewport .container .bottom .older ul li .count .text,
+.viewport .container .bottom .favourite ul li .count .text,
+.viewport .container .bottom .work ul li .count .text,
+.viewport .container .bottom .list ul li .count .text {
+  font-size: 0.6875rem;
+  color: #7F7F7F;
+  line-height: 1.75;
+  margin-top: 0;
+}
+.viewport .container .bottom .today ul li .count .img3,
+.viewport .container .bottom .older ul li .count .img3,
+.viewport .container .bottom .favourite ul li .count .img3,
+.viewport .container .bottom .work ul li .count .img3,
+.viewport .container .bottom .list ul li .count .img3 {
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.viewport .container .bottom .today ul li .count .img3 img,
+.viewport .container .bottom .older ul li .count .img3 img,
+.viewport .container .bottom .favourite ul li .count .img3 img,
+.viewport .container .bottom .work ul li .count .img3 img,
+.viewport .container .bottom .list ul li .count .img3 img {
+  width: 100%;
+  display: block;
+}
+.viewport .container .bottom .today ul li .text3 {
+  padding-right: 5.625rem;
+}
+.viewport .container .bottom .today ul li .img3 {
+  width: 5.25rem;
+}
+.viewport .container .bottom .today ul li .img2 {
+  width: 11.90625rem;
+  height: 7.25rem;
+  background: url("../../public/images/gallery.png") center no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  padding: 0.5625rem 0.5rem 0 0;
+}
+.viewport .container .bottom .today ul li .img2 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.viewport .container .bottom .older ul li .text3,
+.viewport .container .bottom .favourite ul li .text3,
+.viewport .container .bottom .work ul li .text3,
+.viewport .container .bottom .list ul li .text3 {
+  padding-right: 3.4375rem;
+}
+.viewport .container .bottom .older ul li .img3,
+.viewport .container .bottom .favourite ul li .img3,
+.viewport .container .bottom .work ul li .img3,
+.viewport .container .bottom .list ul li .img3 {
+  width: 3rem;
+  height: 3rem;
+}
+.viewport .container .bottom .older ul li .img2,
+.viewport .container .bottom .favourite ul li .img2,
+.viewport .container .bottom .work ul li .img2,
+.viewport .container .bottom .list ul li .img2 {
+  display: flex;
+  justify-content: space-between;
+}
+.viewport .container .bottom .older ul li .img2 img,
+.viewport .container .bottom .favourite ul li .img2 img,
+.viewport .container .bottom .work ul li .img2 img,
+.viewport .container .bottom .list ul li .img2 img {
+  width: 5rem;
+  height: 3rem;
+  overflow: hidden;
+  margin-right: 0.84375rem;
+}
+.viewport .container .bottom .hotauthor .author {
+  width: 100%;
+}
+.viewport .container .bottom .hotauthor .author .week,
+.viewport .container .bottom .hotauthor .author .hot {
+  width: 100%;
+}
+.viewport .container .bottom .hotauthor .author .week .title,
+.viewport .container .bottom .hotauthor .author .hot .title {
+  width: 100%;
+  padding: 0.875rem 0 0.875rem 1.25rem;
+  border-bottom: 0.03125rem solid #DADADA;
+}
+.viewport .container .bottom .hotauthor .author .week .title span,
+.viewport .container .bottom .hotauthor .author .hot .title span {
+  color: #9B9B9B;
+  font-size: 0.875rem;
+}
+.viewport .container .bottom .hotauthor .author .week .body,
+.viewport .container .bottom .hotauthor .author .hot .body {
+  width: 100%;
+  padding-left: 1.25rem;
+}
+.viewport .container .bottom .hotauthor .author .week .body .one,
+.viewport .container .bottom .hotauthor .author .hot .body .one {
+  height: 6.9375rem;
+  overflow: hidden;
+}
+.viewport .container .bottom .hotauthor .author .week .body .one:first-child,
+.viewport .container .bottom .hotauthor .author .hot .body .one:first-child {
+  height: 5.625rem;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.viewport .container .bottom .hotauthor .author .week .body .one:first-child .left,
+.viewport .container .bottom .hotauthor .author .hot .body .one:first-child .left {
+  margin-top: 0.875rem;
+}
+.viewport .container .bottom .hotauthor .author .week .body .one:first-child .right,
+.viewport .container .bottom .hotauthor .author .hot .body .one:first-child .right {
+  margin-top: 0.875rem;
+  height: 4.75rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.viewport .container .bottom .hotauthor .author .week .body .one .left,
+.viewport .container .bottom .hotauthor .author .hot .body .one .left {
+  width: 3rem;
+  height: 3rem;
+  float: left;
+  margin-right: 1.25rem;
+  margin-top: 2.5625rem;
+}
+.viewport .container .bottom .hotauthor .author .week .body .one .left img,
+.viewport .container .bottom .hotauthor .author .hot .body .one .left img {
+  width: 100%;
+  height: 100%;
+}
+.viewport .container .bottom .hotauthor .author .week .body .one .right,
+.viewport .container .bottom .hotauthor .author .hot .body .one .right {
+  margin-top: 2.5625rem;
+  margin-left: 4.25rem;
+  height: 4.3125rem;
+  border-bottom: 0.03125rem solid #DADADA;
+}
+.viewport .container .bottom .hotauthor .author .week .body .one .right h5,
+.viewport .container .bottom .hotauthor .author .hot .body .one .right h5 {
+  font-size: 1rem;
+  margin-bottom: 0.375rem;
+}
+.viewport .container .bottom .hotauthor .author .week .body .one .right p,
+.viewport .container .bottom .hotauthor .author .hot .body .one .right p {
+  color: #5F5F5F;
+  font-size: 0.875rem;
+}
+.viewport .container .bottom .hotauthor .author .hot .title {
+  margin-top: 1rem;
+}
+.viewport .container .bottom .preview {
+  width: 100%;
+}
+.viewport .container .bottom .preview ul {
+  width: 100%;
+  overflow: hidden;
+}
+.viewport .container .bottom .preview ul li {
+  float: left;
+  width: 50%;
+  height: 6.25rem;
+  border-right: 0.03125rem solid #DADADA;
+  border-bottom: 0.03125rem solid #DADADA;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.viewport .container .bottom .preview ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.viewport .container .bottom .preview ul li a img {
+  width: 1.78125rem;
+  height: 1.78125rem;
+  display: block;
+  margin: 0.875rem auto 0 auto;
+}
+.viewport .container .bottom .preview ul li a span {
+  display: block;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: #54B7AA;
+  margin: 0.5625rem 0 0.3125rem 0;
+  font-family: "宋体";
+}
+.viewport .container .bottom .preview ul li a p {
+  font-size: 0.625rem;
+  color: #B9B9B9;
+}
+.viewport .container .bottom .favourite .like {
+  width: 100%;
+  height: 2.5rem;
+  background: #fff;
+}
+.viewport .container .bottom .favourite .like span {
+  display: block;
+  height: 2.5rem;
+  padding-left: 1.03125rem;
+  color: #CACACA;
+  line-height: 2.5rem;
+}
+.viewport .container .bottom .favourite .end {
+  padding-top: 0.625rem;
+  border-top: 0.03125rem solid #DADADA;
+  text-align: center;
+}
+.viewport .container .bottom .setting {
+  width: 100%;
+}
+.viewport .container .bottom .setting ul {
+  width: 100%;
+}
+.viewport .container .bottom .setting ul li {
+  height: 3.125rem;
+  border-bottom: 0.03125rem solid #DADADA;
+  overflow: hidden;
+  padding: 0 0.5rem 0 0.78125rem;
+}
+.viewport .container .bottom .setting ul li .left {
+  float: left;
+  height: 100%;
+  margin: 0.625rem 0;
+}
+.viewport .container .bottom .setting ul li .left h5 {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  font-family: "宋体";
+  margin-bottom: 0;
+  line-height: 1rem;
+}
+.viewport .container .bottom .setting ul li .left span {
+  color: #acacac;
+  font-size: 0.4375rem;
+}
+.viewport .container .bottom .setting ul li .left.bind h5 {
+  line-height: 1.875rem;
+}
+.viewport .container .bottom .setting ul li .right {
+  float: right;
+  line-height: 3.125rem;
+}
+.viewport .container .bottom .setting ul li .right span {
+  display: block;
+  width: 2.5rem;
+  height: 1.25rem;
+  border-radius: 1.5625rem;
+  border: 0.03125rem solid #0F9C89;
+  background: #0F9C89;
+  margin: 0.9375rem 0;
+  position: relative;
+}
+.viewport .container .bottom .setting ul li .right span:after {
+  content: "";
+  position: absolute;
+  width: 1.25rem;
+  height: 1.25rem;
+  background: #fff;
+  right: 0;
+  top: 0;
+  border-radius: 1.25rem;
+}
+.viewport .container .bottom .work {
+  width: 100%;
+}
+.viewport .container .bottom .work .info {
+  text-align: center;
+  padding: 0 1.25rem;
+}
+.viewport .container .bottom .work .info .head {
+  padding-top: 1.40625rem;
+}
+.viewport .container .bottom .work .info .head img {
+  display: block;
+  width: 3.125rem;
+  height: 3.125rem;
+  margin: 0 auto;
+}
+.viewport .container .bottom .work .info .head h5 {
+  margin: 0.375rem 0 0.78125rem 0;
+  font-size: 1.125rem;
+}
+.viewport .container .bottom .work .info .body p {
+  fonr-size: 0.625rem;
+  color: #919191;
+}
+.viewport .container .bottom .work .info .foot {
+  margin: 1.3125rem auto;
+  height: 1.5625rem;
+  width: 5rem;
+  border-radius: 0.3125rem;
+  border: 0.03125rem solid #27BCA8;
+  color: #27BCA8;
+  line-height: 1.5625rem;
+  text-shadow: 0.0625rem -0.0625rem #BAE6E0;
+  font-size: 0.625rem;
+}
+.viewport .container .bottom .list {
+  width: 100%;
+}
+.viewport .container .bottom .list .column {
+  padding-top: 0.9375rem;
+  margin: 0 auto 0.625rem auto;
+  text-align: center;
+}
+.viewport .container .bottom .list .column img {
+  width: 1.78125rem;
+  height: 1.78125rem;
+  display: block;
+  margin: 0 auto;
+}
+.viewport .container .bottom .list .column span {
+  display: block;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: #54B7AA;
+  margin: 0.5625rem 0 0.3125rem 0;
+  font-family: "宋体";
+}
+.viewport .container .bottom .list .column p {
+  font-size: 0.625rem;
+  color: #B9B9B9;
+}
+.viewport .container .bottom .maincenter {
+  width: 100%;
+}
+.viewport .container .bottom .maincenter .message {
+  width: 100%;
+  padding: 0.78125rem 0 0.5rem 0;
+  text-align: center;
+  border-bottom: 0.03125rem solid #DADADA;
+}
+.viewport .container .bottom .maincenter .message img {
+  display: block;
+  width: 2.125rem;
+  height: 2.125rem;
+  margin: 0 auto;
+}
+.viewport .container .bottom .maincenter .message h5 {
+  margin: 0.6875rem 0 0.6875rem 0;
+  font-size: 0.9375rem;
+}
+.viewport .container .bottom .maincenter .message p {
+  color: #B2B2B2;
+  font-size: 0.6875rem;
+}
+.viewport .container .bottom .maincenter .message p span {
+  color: #757575;
+}
+.viewport .container .bottom .maincenter .message .btn {
+  font-size: 0.75rem;
+  margin: 0.625rem 0;
+  width: 100%;
+  height: 1.40625rem;
+}
+.viewport .container .bottom .maincenter .message .btn .attention,
+.viewport .container .bottom .maincenter .message .btn .summary {
+  width: 4.6875rem;
+  height: 1.34375rem;
+  line-height: 1.40625rem;
+  border-radius: 0.3125rem;
+}
+.viewport .container .bottom .maincenter .message .btn .attention {
+  background: #21BAA6;
+  color: #fff;
+  float: left;
+  margin-left: 4.6875rem;
+}
+.viewport .container .bottom .maincenter .message .btn .summary {
+  border: 0.03125rem solid #21BAA6;
+  color: #21BAA6;
+  float: right;
+  margin-right: 4.6875rem;
+}
+.viewport .container .bottom .maincenter .focus {
+  width: 100%;
+  display: flex;
+  height: 2.34375rem;
+}
+.viewport .container .bottom .maincenter .focus div {
+  flex: 1;
+  color: #3C3C3C;
+  border-right: 0.03125rem solid #DFDFDF;
+  text-align: center;
+  font-size: 0.6875rem;
+  line-height: 2.34375rem;
+}
+.viewport .container .bottom .maincenter .focus div span {
+  color: #56B6A4;
+}
+.viewport .container .bottom .maincenter ul {
+  background: #EFEFEF;
+  margin-top: -0.625rem;
+}
+.viewport .container .bottom .maincenter ul li {
+  height: 2.03125rem;
+  line-height: 2.03125rem;
+  margin: 0.625rem 0;
+  background: #fff;
+  overflow: hidden;
+}
+.viewport .container .bottom .maincenter ul li .left {
+  float: left;
+  padding-left: 0.5rem;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+.viewport .container .bottom .maincenter ul li .right {
+  float: right;
+  padding-right: 0.5rem;
+}
+.viewport .container .bottom .maincenter ul li .right .num {
+  font-size: 0.6875rem;
+  color: #3BA892;
+}
+.viewport .container .bottom .maincenter ul li .right .more {
+  font-size: 0.6875rem;
+  font-weight: 900;
+  color: #BFBFBF;
+}
+.viewport .container .bottom .maincenter ul .title {
+  height: 1.40625rem;
+  line-height: 2.03125rem;
+  padding-left: 0.625rem;
+  font-size: 0.6875rem;
+  color: #acacac;
+}
