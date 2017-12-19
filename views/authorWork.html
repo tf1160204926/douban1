@@ -1,0 +1,36 @@
+<div class="work">
+    <div class="info" ng-if="uploaded==true">
+        <div class="head">
+            <img ng-src="{{data.author.avatar}}" alt="">
+            <h5>{{data.author.name}}</h5>
+        </div>
+        <div class="body">
+            <p>{{data.author.resume}}</p>
+        </div>
+        <div class="foot" ng-click="main(data.author.url)">去豆瓣主页</div>
+    </div>
+    <ul>
+        <li ng-repeat="post in data.posts" ng-click="content(post.short_url,$index)">
+            <p>{{post.column.name}}</p>
+            <h2 class="title">{{post.title}}</h2>
+            <div class="count">
+                <div class="text text3" ng-if="post.display_style===10002" ng-style="myObjwork{{$index}}">{{post.abstract}}</div>
+                <div class="text text2" ng-if="post.display_style===10001" ng-style="myObjwork{{$index}}">{{post.abstract}}</div>
+                <div class="img2" ng-if="post.display_style===10003"><img ng-repeat="thumb in post.thumbs" ng-src="{{thumb.large.url}}" alt=""></div>
+                <div class="img3" ng-if="post.display_style===10002"><img ng-src="{{post.thumbs[0].small.url}}" alt=""></div>
+            </div>
+        </li>
+        <li ng-repeat="post in datawork.posts" ng-click="content(post.short_url,$index)" ng-if="clicked==true">
+            <p>{{post.column.name}}</p>
+            <h2 class="title">{{post.title}}</h2>
+            <div class="count">
+                <div class="text text3" ng-if="post.display_style===10002" ng-style="myObjwork{{$index}}">{{post.abstract}}</div>
+                <div class="text text2" ng-if="post.display_style===10001" ng-style="myObjwork{{$index}}">{{post.abstract}}</div>
+                <div class="img2" ng-if="post.display_style===10003"><img ng-repeat="thumb in post.thumbs" ng-src="{{thumb.large.url}}" alt=""></div>
+                <div class="img3" ng-if="post.display_style===10002"><img ng-src="{{post.thumbs[0].small.url}}" alt=""></div>
+            </div>
+        </li>
+        <div class="more" ng-click="morework()" ng-if="uploaded==true&&clicked==false">查看更多文章...</div>
+        <div class="more" ng-if="clicked==true">没有更多作品了</div>
+    </ul>
+</div>

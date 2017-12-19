@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>豆瓣一刻app</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./public/css/index-92b2f42c52.css">
+    
+
+</head>
+
+<body ng-app="yike">
+    <!-- 主体所有内容 -->
+    <div class="viewport">
+        <!-- 侧边导航栏 -->
+        <div class="nav" ng-controller="leftController">
+            <dl>
+                <dt class="login">
+                    <div class="user ">
+                        <img src="./public/images/avatar-8844dbfc4d.png" alt="">
+                    </div>
+                    <span>登录</span>
+                </dt>
+                <dd ng-repeat="(key,list) in lists" ng-class="{active:index==key}" class="list">
+                    <a href="{{list.link}}" class="{{list.ico}}" ng-click="toggle()">
+                        <span>{{list.title}}</span>
+                    </a>
+                </dd>
+            </dl>
+            <div class="footer">
+                <a href="javascript:;" class="icon-bell">夜晚</a>
+                <a href="javascript:;" class="icon-download">离线</a>
+            </div>
+        </div>
+        <!-- 主页面部分 -->
+        <div class="container clearfix">
+            <div class="top">
+                    <a href="javascript:;" class="icon-menu fl" ng-click="toggle()"></a>
+                    <h2 class="fl">{{title}}</h2>
+                    <a href="javaseript:;" class="icon-search fr"></a>
+            </div>
+            <div class="bottom">
+                <!-- 如果没有加载出来，就先显示正在加载的小圈圈 -->
+                <div ng-if="uploaded===false" class="state">
+                    <img class="loading" src="./public/images/loading-50c5e3e79b.gif" alt="">
+                </div>
+                <div ng-view></div>
+            </div>
+        </div>
+    </div>
+    <!-- 引入angular和angular-route -->
+        <!-- endbuild -->
+
+    <script src="./libs/angular-1568e597bb.min.js"></script>
+
+    <script src="./scripts/app-b5434c548c.js"></script>
+
+</body>
+
+</html>

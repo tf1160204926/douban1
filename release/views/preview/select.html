@@ -1,0 +1,18 @@
+<div class="list">
+    <div class="column">
+        <img src="{{data.column.icon}}" alt="">
+        <span>{{data.column.name}}</span>
+        <p>{{data.column.description}}</p>
+    </div>
+    <ul>
+        <li ng-repeat="post in data.posts" ng-click="content(post.short_url,$index)">
+            <h2 class="title">{{post.title}}</h2>
+            <div class="count">
+                <div class="text text3" ng-if="post.display_style===10002" ng-style="myObjselect{{$index}}">{{post.abstract}}</div>
+                <div class="text text2" ng-if="post.display_style===10001" ng-style="myObjselect{{$index}}">{{post.abstract}}</div>
+                <div class="img2" ng-if="post.display_style===10003"><img ng-repeat="thumb in post.thumbs" ng-src="{{thumb.large.url}}" alt=""></div>
+                <div class="img3" ng-if="post.display_style===10002"><img ng-src="{{post.thumbs[0].small.url}}" alt=""></div>
+            </div>
+        </li>
+    </ul>
+</div>
